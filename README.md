@@ -18,19 +18,20 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Setup/Installation Requirements
 
-* _Clone “PROJECT“ from the repository to your desktop_
-* _Navigate to “PROJECT“ directory via your local terminal command line_
+* _Clone “bike-API“ from the repository to your desktop_
+* _Navigate to "bike-API" directory via your local terminal command line_
 * _Open the directory in VS code by typing 'code .' in the command line_
 * _Add .env file to root of directory to store API key by typing "touch .env"_
-* _Get an API key by creating an account ********_
+* _Get an API key* by creating an account on https://bikeindex.org/oauth/applications_
 * _Copy API key and store in .env file using the variable "API-KEY"_
 * _Run 'npm install' in the command line to install all packages_
 * _Run 'npm run build' to build the project via webpack_
-* _Run 'npm run start' to start a development server_
 * _Run 'npm run lint' to lint all JS files_
 * _Run 'npm run test' to test files via Jest_
+* _Run 'npm run start' to start a development server_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+_* API key will be a unique combination of numbers and letters, allowing full access to application_
+_* API key MUST be stored in variable "API-KEY" within .env file - example: API-KEY=3dedc43fe425992c27b353e950b9e942_
 
 ## Known Bugs
 
